@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<html lang="sv">
+<head>
+	<title>Undersökning arbetsmiljö 2020</title>
+</head>
+<body>
+	
+	<!-- Överskrift -->
+	<h1>Medarbetarundersökning 2020</h1>
+
+	<!-- Användaren skriver sitt namn -->
+	<label><strong>Fyll i ditt namn </strong></label><input type="text" name="user" maxlength="20" size="35">
+	<br>
+	<br>
+
+	<!-- Användaren beskriver sig själv -->
+	<label for="describeYourSelf">Beskriv dig själv</label><br>
+	<textarea id="describeYourSelf" name="describeYourSelf" rows="4" cols="30" style="background-color: LightGray" ></textarea>
+  	<br>
+  	<br>
+
+  	<!-- Radioknappar -->
+  	<em>Tränar du regelbundet?</em>
+  	<form action="">  	 
+  	<input type="radio" name="sportYesNo" value="yes"> JA<br>
+  	<input type="radio" name="sportYesNo" value="no"> NEJ
+	</form>
+	<br>
+	<br>
+
+	<!-- Check boxes -->
+	<strong><em>Vilket av följande alternativ föredrar du för att läsa om intressanta saker?</em></strong>
+	<br>
+	<input type="checkbox" name="media1" value="Book">	
+  	<label for="media1"> Böcker</label><br>
+  	<input type="checkbox" name="media2" value="Paper">
+  	<label for="media2"> Tidningar</label><br>
+  	<input type="checkbox" name="media3" value="Online">
+  	<label for="media3"> Online</label>
+  	<br>
+  	<br>
+  	<br>
+
+  	<!-- Rullmeny -->
+  	<label for="movies">Välj din favorit filmgenre:</label>  	
+  	<select id="movies" name="movies">  		
+  		<option value="noSelect" style="background-color: LightGray">Välj</option>
+    	<option value="action">Action</option>
+    	<option value="romance">Romantik</option>
+    	<option value="comedy">Komedi</option>
+    	<option value="drama">Drama</option>
+    	<option value="horror">Skräck</option>
+  	</select>
+  	<br>
+  	<br>
+  	<br>
+
+  	<!-- Användaren skickar in formiläret -->
+  	<p>Genom att trycka på Submit så kommer all data i detta formulär att skickas till servern där den sparas</p>
+  	<input type="submit" value="Submit">
+
+</body>
+</html>
